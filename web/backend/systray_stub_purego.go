@@ -13,7 +13,7 @@ import (
 	"github.com/sipeed/picoclaw/pkg/logger"
 )
 
-// runTray falls back to a headless mode on platforms where systray requires purego.
+// runTray falls back to a headless mode in purego builds where systray requires CGO.
 func runTray() {
 	logger.Infof("System tray is unavailable in %s purego builds; running without tray", runtime.GOOS)
 
