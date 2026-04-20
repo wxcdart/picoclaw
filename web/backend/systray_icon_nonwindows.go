@@ -1,4 +1,4 @@
-//go:build !windows && ((!darwin && !freebsd) || cgo)
+//go:build !windows && ((!darwin && !freebsd) || !purego)
 
 package main
 

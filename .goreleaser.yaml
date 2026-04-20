@@ -64,6 +64,7 @@ builds:
     tags:
       - goolm
       - stdjson
+      - purego
     ldflags:
       - -s -w
       - -X github.com/sipeed/picoclaw/pkg/config.Version={{ .Version }}
